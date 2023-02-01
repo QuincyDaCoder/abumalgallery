@@ -1,0 +1,124 @@
+
+/* Navigatation Bar */
+
+#title{
+    font-family: Montserrat;
+    padding: 3% 12% 0%;
+    background-color: #D61355;
+    color: #fff;
+}
+
+.form-inline{
+    padding-left: 5%;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 30px;
+}
+
+/* Title Contents */
+
+.title-message{
+    padding: 10% 4%;
+}
+
+.buy-now-button{
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #E8E2E2;
+    font-size: 33px;
+    background: black;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #D61355;
+    background-image: -webkit-linear-gradient(top, #fc3c69, #3498db);
+    background-image: -moz-linear-gradient(top, #fc3c69, #3498db);
+    background-image: -ms-linear-gradient(top, #fc3c69, #3498db);
+    background-image: -o-linear-gradient(top, #fc3c69, #3498db);
+    background-image: linear-gradient(to bottom, #fc3c69, #3498db);
+    text-decoration: none;
+}
+
+.rollsroyce{
+    width: 125%;
+    padding: 20% 10% 10% 5%;
+}
+
+/* About us Section */
+
+.aboutus{
+    text-align: left;
+    padding: 7% 12%;
+    background-color: #1D9948;
+    color: #fff;
+
+}
+
+.eniola-picture{
+    width: 80%;
+    text-align: center;
+    padding: 7% 12% 5%
+}
+
+/* Our Gallery Section */
+
+#our-gallery{
+    padding: 3% 15%;
+    background-color: #D61355;
+}
+
+.car-info{
+    text-align: center;
+    color: #fff;
+}
+
+/* Login Section */
+
+#login-section{
+    padding: 3% 12%;
+}
+
+/* Footer section */
+
+#footer{
+    padding: 7% 12%;
+    text-align: center;
+    background-color: #D61355;
+    color: #fff;
+
+}
+
+.icons{
+    padding: 0 3% 3%;
+}
+
+p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
